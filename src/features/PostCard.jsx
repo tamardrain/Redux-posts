@@ -10,10 +10,10 @@ dispatch(deletePost(id));
 
   return (
     <div>
-        <h1>פוסט</h1>
-        <p>id{id}</p>
-        <p>title{title}</p>
-        <p>content{content}</p>
+        {/* <h1>פוסט</h1> */}
+        {/* <p>id{id}</p> */}
+        <p>title: {title}</p>
+        {/* <p>content{content}</p> */}
         <button type='button' onClick={()=>{deletedClicked()}}>הסר</button>
     </div>
   )
